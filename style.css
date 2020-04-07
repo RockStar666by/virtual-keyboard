@@ -1,0 +1,77 @@
+body {
+    background: #dddddd9f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 850px;
+    margin: 0 auto;
+    padding: 5px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.textarea {
+    display: block;
+    width: 850px;
+    height: 300px;
+    margin: 10px auto 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.keyboard--key {
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    background: rgba(45, 151, 178, 0.5);
+    line-height: 50px;
+    color: #000;
+    transition: outline-offset 1s, background-color 0.5s;
+}
+
+.description {
+    font-size: 25px;
+    width: 1000px;
+    margin: 10px auto;
+    text-align: center;
+    color: #000;
+}
+
+.key--wide {
+    width: 115px;
+}
+
+.key--wider {
+    width: 390px;
+}
+
+.key--tab {
+    width: 70px;
+}
+
+.key--controlright {
+    width: 60px;
+}
+
+.backspace {
+    width: 125px;
+}
+
+.key--main {
+    background: rgba(24, 77, 92, 0.74);
+}
+
+.key--active {
+    background: #fd2c2c;
+    outline: 10px solid rgba(255, 255, 255, 0.7);
+    outline-offset: -40px;
+}
